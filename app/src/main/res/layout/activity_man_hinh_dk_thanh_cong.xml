@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:background="@color/white"
+    tools:context=".ManHinhDk_ThanhCong">
+
+    <LinearLayout
+        android:id="@+id/ln_ht"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logo_1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/robito_indam"
+            android:gravity="center"
+            android:text="Tất Cả Đã Xong"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robito_indam"
+            android:gravity="center"
+            android:text="Chúc Bạn Có Những Giây Phút Tuyệt Vời\n Cùng Poly Gym"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/img_mhDKtc"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/ln_ht"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/img_mhdktc" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_mhDKtc"
+        android:layout_marginTop="80dp">
+        <Button
+            android:id="@+id/btn_NextToMhMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="Trải Nghiệm Thôi"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:background="@drawable/shape_backgroud_btn_mhc"
+            app:backgroundTint = "@null"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>

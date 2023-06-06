@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:gravity="center"
+    tools:context=".ManHinhDk">
+
+    <ImageView
+        android:id="@+id/img_mhdk_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+    <ImageView
+        android:id="@+id/img_logo_mhdk"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo_1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        />
+    <LinearLayout
+        android:id="@+id/ln_gt"
+        android:layout_below="@+id/img_logo_mhdk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:text="Bạn chưa có tài khoản? Chỉ cần bỏ ra vài phút là bạn đã trở thành thành viên của POLY Gym"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/robito_indam"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:text="Đăng Ký"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ThongTinDK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_edt_mhDk_User"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_edt_mhDk_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Họ và tên"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_edt_mhDk_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:layout_marginBottom="10dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_edt_mhDk_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Mật khẩu"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:layout_marginBottom="10dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_edt_mhDk_repass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Nhập Lại Mật khẩu"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:layout_marginBottom="10dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_edt_mhDk_Pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Pin Bảo Mật"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:id="@+id/linlayout_note"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lưu ý"
+                android:textColor="@color/black"
+                android:fontFamily="@font/robito_indam"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Khi nhấn vào đăng ký là bạn đã chấp nhân"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/tv_chinh_sach"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="chính sách bảo mật "
+                        android:fontFamily="@font/robito_indam"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="của chúng tôi"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_mhDk_dangky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="Đăng ký"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:background="@drawable/shape_backgroud_btn_mhc"
+            app:backgroundTint = "@null"
+            android:layout_below="@+id/linlayout_note"
+            android:layout_centerHorizontal="true"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/btn_mhDk_dangky"
+            android:gravity="center_horizontal"
+            android:layout_gravity="">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="đã có tài khoản?"
+                android:textSize="11dp"
+                android:layout_marginRight="5dp"
+                />
+            <TextView
+                android:id="@+id/tv_mhdk_textDangNhap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng Nhập"
+                android:textSize="14dp"
+                android:textColor="#8C2D2D"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

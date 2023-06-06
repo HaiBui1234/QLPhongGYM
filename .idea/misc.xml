@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/debug/res/menu/menu_nav.xml" value="0.22447916666666667" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/drawable/chinh_sach_icon.xml" value="0.1085" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/drawable/faq_icon.xml" value="0.1085" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/drawable/lien_he_icon.xml" value="0.1085" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/drawable/logout_icon.xml" value="0.1085" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/drawable/shape_bacground_cri.xml" value="0.1085" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/drawable/shape_bacground_cri_red.xml" value="0.1085" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/drawable/shape_bacground_cri_yellow.xml" value="0.1085" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/drawable/shape_bacground_taphome.xml" value="0.1085" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/drawable/shape_backgroud_btn_mhc.xml" value="0.1085" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/drawable/shape_background_boder_vien_den.xml" value="0.1085" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/drawable/shape_background_menu_buttonnav.xml" value="0.1085" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/activity_main_admin.xml" value="0.25" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/activity_man_hinh_dk.xml" value="0.25" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/activity_man_hinh_dk_thanh_cong.xml" value="0.17074275362318841" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/activity_man_hinh_login.xml" value="0.17074275362318841" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/activity_man_hinh_quen_mk.xml" value="0.17074275362318841" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_hd_nap.xml" value="0.19" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_hv_add.xml" value="0.22" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_hv_edit.xml" value="0.2" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_hv_forgot_pass.xml" value="0.17074275362318841" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_nap.xml" value="0.17074275362318841" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_pt_add.xml" value="0.2" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_pt_edit.xml" value="0.17074275362318841" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_show_info_hv.xml" value="0.17074275362318841" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_show_info_pt.xml" value="0.25" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_home_admin.xml" value="0.17074275362318841" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_khoa_tap_da_d_k.xml" value="0.17074275362318841" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_nguoi_dung__dang_ky_khoa_hoc.xml" value="0.10916919959473151" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_nguoi_dung__thong_tin.xml" value="0.17074275362318841" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_quan_ly_bai_tap.xml" value="0.1" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_quan_ly_hoc_vien.xml" value="0.17074275362318841" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_quan_ly_khoa_tap.xml" value="0.1" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_quan_ly_pt.xml" value="0.17074275362318841" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_quan_ly_thuc_don.xml" value="0.1" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/layout/layout_header_nav.xml" value="0.33" />
+        <entry key="..\:/DuAn1/PoLyGym (1)/PoLyGym/app/src/main/res/menu/menu_button_nav_admin.xml" value="0.22447916666666667" />
+        <entry key="..\:/MOB1032-Android/SDK/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/MOB1032-Android/SDK/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/debug/res/menu/menu_for_da_dki.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/debug/res/menu/menu_for_dki_KT.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/debug/res/menu/menu_for_dki_kt.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/activity_man_hinh_login.xml" value="0.17" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_kt_add.xml" value="0.21" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_kt_update.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_show_info_bt.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_show_info_kt.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/dialog_td_add.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_capquyen_kt.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_check_nap.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_h_v__da__dki.xml" value="0.1" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_khoa_tap_da_d_k.xml" value="0.1" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_nguoi_dung__dang_ky_khoa_hoc.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_thong_ke__top_p_t.xml" value="0.1" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/layout_item_hv.xml" value="0.1" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/layout_item_hv_da_dki.xml" value="0.15" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/layout_item_kt.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/layout_item_kt_capquyen.xml" value="0.22" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/layout_item_kt_da_dki.xml" value="0.25" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/layout_item_kt_dki.xml" value="0.22" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/layout_item_pt.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/layout_item_td.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/layout/layout_item_tt.xml" value="0.17" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/menu/menu_for_capquyen.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/menu/menu_for_icon.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/New folder/PoLyGym (1)/PoLyGym/app/src/main/res/menu/menu_for_tt.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/drawable/shape_avtatamd.xml" value="0.1045" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/layout/activity_main_admin.xml" value="0.22" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/layout/activity_man_hinh_dk.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/layout/activity_man_hinh_login.xml" value="0.33" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/layout/activity_man_hinh_quen_mk.xml" value="0.1" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/layout/dialog_hv_add.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/layout/fragment_cai_dat.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/layout/fragment_home_admin.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/layout/fragment_nguoi_dung__thong_tin.xml" value="0.21" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/layout/fragment_thong_ke__doanh_thu.xml" value="0.22" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/layout/fragment_thong_ke__top_p_t.xml" value="0.1" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/layout/layout_header_nav.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/layout/layout_item_pt_top.xml" value="0.21" />
+        <entry key="..\:/Users/AD/Downloads/PoLyGym/PoLyGym/app/src/main/res/menu/menu_button_nav_admin.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/AD/Downloads/duan_new/PoLyGym (1)/PoLyGym/app/src/main/res/layout/fragment_quan_ly_khoa_tap.xml" value="0.1" />
+        <entry key="..\:/Users/AD/Downloads/duan_new/PoLyGym (1)/PoLyGym/app/src/main/res/layout/layout_item_tt.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

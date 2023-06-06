@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/shape_background_item">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/item_kt_avata_cq"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/img_avata" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="125dp"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="Tên PT: "
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="Tên khóa tập: "
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="Trạng thái: "
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/item_kt_nam_pt_cq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="tên pt"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/item_kt_name_cq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="tên kt"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/item_kt_trangthai_cq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="Trạng thái"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:id="@+id/item_kt_imgtd_cq"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_optionmenu"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

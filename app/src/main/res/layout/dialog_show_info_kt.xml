@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="35dp"
+        >
+
+        <TextView
+            android:id="@+id/before_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Tên khóa tập:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_info_nameKT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/before_name"
+            android:text="Trần Văn Tèo"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="35dp"
+        >
+
+        <TextView
+            android:id="@+id/before_gc"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Số ngày tập:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_info_dateKT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/before_gc"
+            android:text="TeoPH25638@gmail.com"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="35dp"
+        >
+
+        <TextView
+            android:id="@+id/before_gia_kt"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Giá khóa tập:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_info_giaKT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/before_gia_kt"
+            android:text="TeoPH25638@gmail.com"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="35dp"
+        >
+
+        <TextView
+            android:id="@+id/before_trangthai_kt"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Giá khóa tập:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_info_trangThai_KT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/before_trangthai_kt"
+            android:text="TeoPH25638@gmail.com"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+</LinearLayout>

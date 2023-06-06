@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/icon_home"
+        android:title="home" />
+    <item
+        android:id="@+id/thongke"
+        android:icon="@drawable/icon_thongke"
+        android:title="thống kê" />
+    <item
+        android:id="@+id/nguoidung"
+        android:icon="@drawable/icon_nguoidung"
+        android:title="người dùng" />
+    <item
+        android:id="@+id/caidat"
+        android:icon="@drawable/icon_setting"
+        android:title="cài đặt" />
+
+</menu>

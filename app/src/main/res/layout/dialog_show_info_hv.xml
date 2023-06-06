@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/img_avatar_main"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="35dp"
+        >
+
+        <TextView
+            android:id="@+id/before_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Họ tên:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_info_name_hv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/before_name"
+            android:text="Trần Văn Tèo"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="35dp"
+        >
+
+        <TextView
+            android:id="@+id/before_email"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_info_email_hv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/before_email"
+            android:text="TeoPH25638@gmail.com"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="35dp"
+        >
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/before_phone"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Điện thoại:"/>
+
+        <TextView
+            android:id="@+id/tv_info_phone_hv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/before_phone"
+            android:text="123456789"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+
+</LinearLayout>

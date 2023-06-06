@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edUserName_HV_edit"
+            android:textColorHint="@color/mau_nen"
+            android:hint="Nhập username: "
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edName_HV_edit"
+            android:textColorHint="@color/mau_nen"
+
+            android:hint="Nhập họ tên: "
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        app:passwordToggleEnabled="true"
+
+        android:layout_marginRight="20dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edPass_HV_edit"
+            android:textColorHint="@color/mau_nen"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập mật khẩu: " />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnedit_HV"
+            android:text="Lưu"
+
+            android:backgroundTint="#979494"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnHuyEditHV"
+            android:text="Hủy"
+            android:backgroundTint="#979494"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_thanhtoan"
+        android:title="Thanh Toán"
+        android:icon="@drawable/ic_baseline_delete_forever_24"/>
+    <item android:id="@+id/menu_Xóa"
+        android:title="xóa"
+        android:icon="@drawable/icon_edit"/>
+</menu>

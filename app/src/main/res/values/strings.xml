@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Poly Gym</string>
+    <string name="open_dr">open drawer</string>
+    <string name="close_dr">close drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="Vai_tro">
+        <item>ADMIN</item>
+        <item>PT</item>
+        <item>Học Viên</item>
+    </string-array>
+    <string-array name="Cap_quyen">
+        <item>Chưa cấp quyền</item>
+        <item>Đã cấp quyền</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

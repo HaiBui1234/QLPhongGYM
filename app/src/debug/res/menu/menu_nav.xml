@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:title="FAQ"
+        android:icon="@drawable/faq_icon"
+        android:id="@+id/nav_faq"/>
+    <item android:title="liên hệ"
+        android:icon="@drawable/lien_he_icon"
+        android:id="@+id/nav_lien_he"/>
+    <item android:title="chính sách"
+        android:icon="@drawable/chinh_sach_icon"
+        android:id="@+id/nav_chinh_sach"/>
+    <item android:title="Đăng Xuất"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:id="@+id/dangxuat"/>
+</menu>

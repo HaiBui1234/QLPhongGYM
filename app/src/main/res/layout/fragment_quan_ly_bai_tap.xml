@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.QuanLyBaiTapFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/shape_background_boder_vien_den"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="5"
+            android:text="Tìm kiếm bài tập"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/spLocBT"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="5" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/lis_BT"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/float_BT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/mau_nen"
+            android:src="@drawable/ic_baseline_add_24"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="75dp"
+            android:layout_marginRight="16dp"/>
+    </FrameLayout>
+
+</LinearLayout>

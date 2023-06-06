@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManHinhChao">
+
+    <ImageView
+        android:id="@+id/img_mhc_logo"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo_1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_above="@+id/re_mhc_nextto"
+        android:layout_below="@+id/img_mhc_logo">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/ViewPagerSlide"
+            android:layout_width="250dp"
+            android:layout_height="450dp"/>
+       <me.relex.circleindicator.CircleIndicator
+           android:id="@+id/cirIn"
+           android:layout_marginTop="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="30dp"
+           app:ci_drawable="@drawable/shape_bacground_cri"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+       android:id="@+id/re_mhc_nextto"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="10dp"
+       android:layout_alignParentBottom="true">
+       <Button
+           android:id="@+id/btn_mhc_start"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="30dp"
+           android:layout_marginLeft="30dp"
+           android:text="bắt đầu nào"
+           android:textColor="@color/white"
+           android:textSize="12dp"
+           android:background="@drawable/shape_backgroud_btn_mhc"
+           app:backgroundTint = "@null"
+           android:layout_centerHorizontal="true"
+           />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="10dp"
+           android:orientation="horizontal"
+           android:layout_below="@+id/btn_mhc_start"
+           android:gravity="center_horizontal"
+           android:layout_gravity="">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Bạn đã có tài khoản?"
+               android:textSize="11dp"
+               android:layout_marginRight="5dp"
+               />
+           <TextView
+               android:id="@+id/tv_mhc_dangnhap"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Đăng nhập"
+               android:textSize="14dp"
+               android:textColor="#8C2D2D"
+               />
+       </LinearLayout>
+   </RelativeLayout>
+</RelativeLayout>

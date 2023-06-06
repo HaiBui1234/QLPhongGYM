@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_background_item"
+        android:padding="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/item_tt_avata"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/img_avata" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="125dp"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="Tên: "
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="Số tiền: "
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="Thời gian: "
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/item_tt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="tên hv"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/item_tt_tientt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="số tiền nạp"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/item_tt_timett"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="time"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

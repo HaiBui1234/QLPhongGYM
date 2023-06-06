@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rlTop"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape_background_item"
+        android:padding="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/item_pt_top_avata"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/item_pt_top_avata"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/item_pt_top_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="tên pt"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/item_pt_top_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robito_indam"
+                    android:text="email"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/robito_indam"
+                    android:gravity="center"
+                    android:text="Số lượt DK"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/item_pt_top_soLuot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robito_indam"
+                    android:gravity="center"
+                    android:text="số lượt"
+                    android:textColor="@color/mau_nen"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/img_avatar_main"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="35dp"
+        >
+
+        <TextView
+            android:id="@+id/before_name"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Tên bài tập:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_info_nameBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/before_name"
+            android:text="Trần Văn Tèo"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="35dp"
+        >
+
+        <TextView
+            android:id="@+id/before_gc"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Ghi chú:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/before_gc"
+            android:text="TeoPH25638@gmail.com"
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_info_btgc"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="35dp"
+        >
+
+        <TextView
+            android:id="@+id/before_NAmeLT"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Ghi chú:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/before_NAmeLT"
+            android:text="TeoPH25638@gmail.com"
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_info_Name_KT_BT"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuCapQuyen"
+        android:title="Cấp quyền"
+        android:icon="@drawable/ic_baseline_delete_forever_24"/>
+    <item android:id="@+id/menuHuyCapQuyen"
+        android:title="Hủy quyền"
+        android:icon="@drawable/ic_baseline_delete_forever_24"/>
+    <item android:id="@+id/menusua"
+        android:title="sửa"
+        android:icon="@drawable/ic_baseline_delete_forever_24"/>
+    <item android:id="@+id/menuxoa"
+        android:title="xóa"
+        android:icon="@drawable/icon_edit"/>
+</menu>

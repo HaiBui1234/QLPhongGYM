@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+        <TextView
+            android:id="@+id/tvB1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Bước 1: "
+            android:textColor="@color/mau_nen"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvB1"
+            android:layout_centerVertical="true"
+            android:text="Điền số tiền bạn muốn nạp."
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Bước 2: "
+            android:textSize="25dp"
+            android:id="@+id/tvB2"
+            android:textStyle="bold"
+            android:textColor="@color/mau_nen"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvB2"
+            android:layout_centerVertical="true"
+            android:text="Sau đó quét mã QR bên dưới để thanh toán. \nLưu ý: Chuyển đúng số tiền bạn đã nhập ở trên."
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Bước 3: "
+            android:textSize="25dp"
+            android:id="@+id/tvB3"
+            android:textStyle="bold"
+            android:textColor="@color/mau_nen"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tvB3"
+            android:text="Sau khi chuyển tiền xong hãy click vào box 'Xác nhận đã thanh toán'."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Bước 4: "
+            android:textSize="25dp"
+            android:id="@+id/tvB4"
+            android:textStyle="bold"
+            android:textColor="@color/mau_nen"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tvB4"
+            android:text="Cuối cùng nhấn xác nhận thanh toán và đợi hệ thống xử lý một chút tiền sẽ được công vào ví của bạn."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDaHieu"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:text="Tôi đã hiểu"
+
+            android:backgroundTint="#979494"
+            android:layout_marginHorizontal="20dp"
+            android:textStyle="bold"
+            />
+
+</LinearLayout>
